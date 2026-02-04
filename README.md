@@ -1,4 +1,4 @@
-# Mathematical Modelling Repository
+# Mathematical Modelling
 
 This repo will contain coursework, projects, and implementations relevant to applied mathematical modelling methods. It will serve as a collection of computational techniques & simulations used for modelling real-world phenomena with mathematical frameworks.
 
