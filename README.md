@@ -15,7 +15,8 @@ math-modelling/
 │   ├── buffon.ipynb      # Buffon's Needle simulation
 │   ├── fishtankmc1.ipynb # Fish tank Monte Carlo simulation (part 1)
 │   ├── fishtankmc2.ipynb # Fish tank Monte Carlo simulation (part 2)
-│   └── scamSchool.ipynb  # Scam School problem simulation
+│   ├── scamSchool.ipynb  # Scam School problem simulation 
+│   └── README.md         # project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
