@@ -11,16 +11,29 @@ math-modelling/
 ├── 1_Central-Limit-Theorem/
 │   ├── h1.ipynb          # Central Limit Theorem simulations
 │   └── README.md         # Project docs
+├── 2_Monte-Carlo/
+│   ├── buffon.ipynb      # Buffon's Needle simulation
+│   ├── fishtankmc1.ipynb # Fish tank Monte Carlo simulation (part 1)
+│   ├── fishtankmc2.ipynb # Fish tank Monte Carlo simulation (part 2)
+│   └── scamSchool.ipynb  # Scam School problem simulation
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
 
-## Contents as of 04/02/2026:
+## Contents as of 02/06/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
 
 Monte Carlo simulation demonstrating the Central Limit Theorem through dice rolling experiments. Explores how sample averages converge to a normal distribution with both uniform and non-uniform probability distributions.
+
+### Project 2 - Monte Carlo Simulations
+**Directory:** `2_Monte-Carlo/`
+
+Collection of Monte Carlo simulation techniques applied to various problems:
+- **Buffon's Needle:** Estimating π using geometric probability
+- **Fish Tank Simulations:** Probabilistic modeling scenarios
+- **Scam School Problem:** Monte Carlo approach to probability puzzles
 
 ## Getting Started
 
