@@ -9,13 +9,18 @@ Collection of Monte Carlo simulation techniques applied to classical probability
 **Classic geometric probability experiment for estimating π**
 
 - **Problem**: A needle of length L is randomly dropped on a floor with parallel lines separated by distance D
-- **Parameters**: L = D = 1 (needle length equals line spacing)
-- **Method**: Simulates random drops and counts crossings to estimate π using the formula: π ≈ 2n/c (where n = drops, c = crossings)
+- **Parameter Configurations Tested**:
+  - L = D = 1 (standard case, needle length equals line spacing)
+  - L = 1/2, D = 2 (needle shorter than spacing)
+  - L = 1, D = 20 (very wide spacing)
+  - L = 3, D = 4 (Fox's historical experiment)
+- **Method**: Simulates random drops and counts crossings to estimate π using the formula: π ≈ 2nL/(Dc) where n = drops, c = crossings
 - **Key Variables**:
-  - `n`: Number of needle drops (default: 5000)
+  - `n`: Number of needle drops (default: 5000; 530 for Fox's experiment)
   - `verticalPosition`: Random y-coordinate of needle center
   - `theta`: Random angle of needle orientation
-- **Demonstrates**: Convergence of Monte Carlo estimate with increasing trials; elegant connection between geometry and probability
+- **Fox's Experiment Analysis**: Runs 100,000 simulations of 530 tosses to assess the probability of achieving Fox's remarkably accurate 1901 result (π ≈ 3.1423)
+- **Demonstrates**: Convergence of Monte Carlo estimate with increasing trials; elegant connection between geometry and probability; sensitivity to parameter choices; statistical validation of historical results
 
 ### 2. Fish Tank Modeling - Part 1 (`fishtankmc1.ipynb`)
 **Introductory inventory management simulation**
@@ -57,13 +62,15 @@ Collection of Monte Carlo simulation techniques applied to classical probability
 **Probability analysis of card adjacency problem**
 
 - **Problem**: From a shuffled standard deck, two random card values (ace through king) are selected. What's the probability they appear adjacent in the deck?
-- **Origin**: May 2009 episode of Internet show _Scam School_ claiming >50% probability
+- **Origin**: May 2009 episode of Internet show _Scam School_ (host Brian Brushwood) claiming approximately 70% probability
 - **Method**: 
   - Simulate random deck permutation
   - Select two random card values
   - Check if any instance of these values sits side-by-side
+  - Extended simulation: 100,000 trials to empirically verify the claim
+- **Result**: Simulation confirms probability of ~70%, validating Brushwood's claim
 - **Key Insight**: With 4 cards of each value in a 52-card deck, multiple opportunities for adjacency increase probability beyond naive expectation
-- **Demonstrates**: Monte Carlo verification of counterintuitive probability claims; usefulness of simulation for complex combinatorics
+- **Demonstrates**: Monte Carlo verification of counterintuitive probability claims; usefulness of simulation for complex combinatorics; empirical validation over analytical calculation
 
 ## Common Patterns
 All notebooks employ the Monte Carlo method:
