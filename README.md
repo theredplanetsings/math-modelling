@@ -17,6 +17,9 @@ math-modelling/
 │   ├── fishtankmc2.ipynb # Fish tank Monte Carlo simulation (part 2)
 │   ├── scamSchool.ipynb  # Scam School problem simulation 
 │   └── README.md         # project docs
+├── 3_Queuing_and_Scraping/
+│   ├── pharmacy.ipynb    # Queuing simulation
+│   └── README.md         # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
@@ -35,6 +38,12 @@ Collection of Monte Carlo simulation techniques applied to various problems:
 - **Buffon's Needle:** Estimating π using geometric probability
 - **Fish Tank Simulations:** Probabilistic modeling scenarios
 - **Scam School Problem:** Monte Carlo approach to probability puzzles
+
+### Project 3 - Queuing Theory and Web Scraping
+**Directory:** `3_Queuing_and_Scraping/`
+
+Stochastic modeling of queuing systems with real-world applications:
+- **Pharmacy Simulation:** Models customer arrivals and service times at a pharmacy using Poisson processes and normal distributions. Simulates an 8-hour business day to determine wait times and closing time delays.
 
 ## Getting Started
 
