@@ -21,7 +21,7 @@ math-modelling/
 └── LICENSE
 ```
 
-## Contents as of 02/10/2026:
+## Contents as of 02/11/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
