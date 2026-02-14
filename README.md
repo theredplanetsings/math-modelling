@@ -17,8 +17,8 @@ math-modelling/
 │   ├── fishtankmc2.ipynb # Fish tank Monte Carlo simulation (part 2)
 │   ├── scamSchool.ipynb  # Scam School problem simulation 
 │   └── README.md         # project docs
-├── 3_Queuing_and_Scraping/
-│   ├── pharmacy.ipynb    # Queuing simulation
+├── 3_Poisson_Processes/
+│   ├── pharmacy.ipynb    # Poisson simulation
 │   └── README.md         # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
