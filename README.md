@@ -39,8 +39,8 @@ Collection of Monte Carlo simulation techniques applied to various problems:
 - **Fish Tank Simulations:** Probabilistic modeling scenarios
 - **Scam School Problem:** Monte Carlo approach to probability puzzles
 
-### Project 3 - Queuing Theory and Web Scraping
-**Directory:** `3_Queuing_and_Scraping/`
+### Project 3 - Poisson Processes and Web Scraping
+**Directory:** `3_Poisson_Processes/`
 
 Stochastic modeling of queuing systems with real-world applications:
 - **Pharmacy Simulation:** Models customer arrivals and service times at a pharmacy using Poisson processes and normal distributions. Simulates an 8-hour business day to determine wait times and closing time delays.
