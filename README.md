@@ -2,7 +2,7 @@
 
 This repo will contain coursework, projects, and implementations relevant to applied mathematical modelling methods. It will serve as a collection of computational techniques & simulations used for modelling real-world phenomena with mathematical frameworks.
 
-Following along with MAT-210 - Mathematical Modelling at Davidson College, Spring 2026
+Following with MAT-210 - Mathematical Modelling at Davidson College, Spring 2026
 
 ## Repository Structure
 
