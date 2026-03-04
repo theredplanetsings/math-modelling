@@ -1,11 +1,11 @@
-# Linear Programming and Optimization
+# Linear Programming and Optimisation
 
 ## Overview
-Linear programming (LP) is a mathematical optimization technique for maximizing or minimizing a linear objective function subject to linear constraints. LP provides a rigorous framework for resource allocation decisions under competing constraints—finding the "best" solution when multiple goals conflict and resources are limited.
+Linear programming (LP) is a mathematical optimisation technique for maximising or minimising a linear objective function subject to linear constraints. LP provides a rigorous framework for resource allocation decisions under competing constraints—finding the "best" solution when multiple goals conflict and resources are limited.
 
 The fundamental structure of an LP problem:
 ```
-Maximize (or Minimize):  c₁x₁ + c₂x₂ + ... + cₙxₙ    (objective function)
+Maximise (or Minimise):  c₁x₁ + c₂x₂ + ... + cₙxₙ    (objective function)
 
 Subject to:  a₁₁x₁ + a₁₂x₂ + ... + a₁ₙxₙ  ≤  b₁
              a₂₁x₁ + a₂₂x₂ + ... + a₂ₙxₙ  ≤  b₂
@@ -24,7 +24,7 @@ This directory contains three classic optimization problems demonstrating differ
 ### 1. Resource Allocation (`LP_Problems.pdf` Problem 1)
 **Life Vests and Life Boats** - A 2-variable problem exploring volume and capacity trade-offs.
 
-- Optimize the mix of safety equipment to maximize capacity within volume constraints
+- Optimise the mix of safety equipment to maximise capacity within volume constraints
 - Solved using **graphical method** (plotting feasible region, finding optimal vertex)
 - Demonstrates **integer programming** (discrete units) vs. continuous relaxation
 - Includes **sensitivity analysis** showing how parameter changes affect solutions
@@ -32,15 +32,15 @@ This directory contains three classic optimization problems demonstrating differ
 ### 2. Production Planning (`LP_Problems.pdf` Problem 2)
 **Manufacturing Product Mix** - A 3-variable problem with multiple machine constraints.
 
-- Determine production levels for three products to maximize profit
+- Determine production levels for three products to maximise profit
 - Each product requires different machine hours on three machines (mailing, lathe, grinder)
 - Identifies **binding constraints** (bottleneck resources at full capacity)
 - Illustrates **shadow prices** (marginal value of additional resources)
 
-### 3. Time and Budget Optimization (`LP_Problems.pdf` Problem 3)
+### 3. Time and Budget Optimisation (`LP_Problems.pdf` Problem 3)
 **Mariko's Class Scheduling** - A mixed-integer programming problem.
 
-- Maximize classes taken while satisfying work-hour and budget constraints
+- Maximise classes taken while satisfying work-hour and budget constraints
 - Classes come in fixed 5-hour increments (integer constraint)
 - Work hours are continuous (fractional hours allowed)
 - Demonstrates **mixed-integer programming** and non-unique solutions
@@ -78,7 +78,7 @@ This directory contains three classic optimization problems demonstrating differ
 
 ### Key Concepts
 - **Feasible Region**: Set of all points satisfying all constraints (a convex polytope)
-- **Optimal Solution**: Vertex of the feasible region maximizing/minimizing the objective
+- **Optimal Solution**: Vertex of the feasible region maximising/minimising the objective
 - **Binding Constraints**: Constraints that are exactly satisfied (active) at the optimum
 - **Shadow Price**: How much the objective would improve if a constraint were relaxed by one unit
 - **Sensitivity Analysis**: Study of how optimal solution changes with parameter perturbations
@@ -89,12 +89,12 @@ This directory contains three classic optimization problems demonstrating differ
 - **Computational Complexity**: LP is solvable in polynomial time; IP is NP-hard
 
 ### Real-World Applications
-Linear programming is foundational in operations research and optimization:
+Linear programming is foundational in operations research and optimisation:
 
 - **Manufacturing**: Production scheduling, capacity planning, workforce allocation
 - **Supply Chain**: Transportation routes, warehouse location, inventory management
-- **Finance**: Portfolio optimization, asset allocation, risk management
-- **Energy**: Power grid optimization, fuel blending, renewable integration
+- **Finance**: Portfolio optimisation, asset allocation, risk management
+- **Energy**: Power grid optimisation, fuel blending, renewable integration
 - **Agriculture**: Crop planning, fertilizer allocation, harvest scheduling
 - **Telecommunications**: Network routing, bandwidth allocation
 
@@ -115,4 +115,4 @@ The Excel files demonstrate LP formulation and solution using SimplexLP:
 - **General**: Add minimum production requirements or modify constraint parameters
 
 ## Key Insight
-Linear programming transforms qualitative resource allocation questions into rigorous mathematical frameworks with provably optimal solutions. Constraints model real-world limitations as algebraic inequalities, enabling systematic decision-making under scarcity. The graphical method (2D) and Simplex algorithm (general) both embody the same principle: **optimization means finding the "best corner" of a multi-dimensional feasible region**.
+Linear programming transforms qualitative resource allocation questions into rigorous mathematical frameworks with provably optimal solutions. Constraints model real-world limitations as algebraic inequalities, enabling systematic decision-making under scarcity. The graphical method (2D) and Simplex algorithm (general) both embody the same principle: **optimisation means finding the "best corner" of a multi-dimensional feasible region**.

@@ -53,10 +53,10 @@ Collection of Monte Carlo simulation techniques applied to various problems:
 Stochastic modeling of queuing systems with real-world applications:
 - **Pharmacy Simulation:** Models customer arrivals and service times at a pharmacy using Poisson processes and normal distributions. Simulates an 8-hour business day to determine wait times and closing time delays.
 
-### Project 4 - Linear Programming & Optimization
+### Project 4 - Linear Programming & Optimisation
 **Directory:** `4_Linear_Programming/`
 
-Optimization techniques for resource allocation under constraints:
+Optimisation techniques for resource allocation under constraints:
 - **Life Vests & Boats:** 2-variable resource allocation with graphical method and integer programming
 - **Manufacturing Mix:** 3-variable production planning with machine capacity constraints
 - **Class Scheduling:** Mixed-integer programming for time and budget optimization
