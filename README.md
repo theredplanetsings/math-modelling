@@ -16,15 +16,23 @@ math-modelling/
 │   ├── fishtankmc1.ipynb # Fish tank Monte Carlo simulation (part 1)
 │   ├── fishtankmc2.ipynb # Fish tank Monte Carlo simulation (part 2)
 │   ├── scamSchool.ipynb  # Scam School problem simulation 
-│   └── README.md         # project docs
+│   └── README.md         # Project docs
 ├── 3_Poisson_Processes/
-│   ├── pharmacy.ipynb    # Poisson simulation
+│   ├── pharmacy.ipynb    # Queuing theory simulation
+│   └── README.md         # Project docs
+├── 4_Linear_Programming/
+│   ├── 1e.xlsx           # Problem 1 Excel solution
+│   ├── 1e report.mp4     # SimplexLP solver execution
+│   ├── 2b.xlsx           # Problem 2 Excel solution
+│   ├── 2b report.mp4     # SimplexLP solver execution
+│   ├── LP_Problems.pdf   # Problem statements
+│   ├── LP_Solutions.pdf  # Handwritten solutions
 │   └── README.md         # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
 
-## Contents as of 02/03/2026:
+## Contents as of 03/04/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
@@ -39,11 +47,20 @@ Collection of Monte Carlo simulation techniques applied to various problems:
 - **Fish Tank Simulations:** Probabilistic modeling scenarios
 - **Scam School Problem:** Monte Carlo approach to probability puzzles
 
-### Project 3 - Poisson Processes & Web Scraping
+### Project 3 - Poisson Processes & Queuing Theory
 **Directory:** `3_Poisson_Processes/`
 
 Stochastic modeling of queuing systems with real-world applications:
 - **Pharmacy Simulation:** Models customer arrivals and service times at a pharmacy using Poisson processes and normal distributions. Simulates an 8-hour business day to determine wait times and closing time delays.
+
+### Project 4 - Linear Programming & Optimization
+**Directory:** `4_Linear_Programming/`
+
+Optimization techniques for resource allocation under constraints:
+- **Life Vests & Boats:** 2-variable resource allocation with graphical method and integer programming
+- **Manufacturing Mix:** 3-variable production planning with machine capacity constraints
+- **Class Scheduling:** Mixed-integer programming for time and budget optimization
+- Solutions implemented using SimplexLP solver in Google Sheets
 
 ## Getting Started
 
