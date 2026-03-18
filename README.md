@@ -28,11 +28,18 @@ math-modelling/
 │   ├── LP_Problems.pdf   # Problem statements
 │   ├── LP_Solutions.pdf  # Handwritten solutions
 │   └── README.md         # Project docs
+├── 5_Bracketology/
+│   ├── colleyWeightedRanking.ipynb # Colley ranking and bracket predictions
+│   ├── NCAA_2007_Games.txt         # 2006-07 game results
+│   ├── NCAA_2007_Teams.txt         # 2006-07 team names
+│   ├── NCAA_2008_Games.txt         # 2007-08 game results
+│   ├── NCAA_2008_Teams.txt         # 2007-08 team names
+│   └── README.md                   # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
 
-## Contents as of 03/04/2026:
+## Contents as of 03/18/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
@@ -61,6 +68,15 @@ Optimisation techniques for resource allocation under constraints:
 - **Manufacturing Mix:** 3-variable production planning with machine capacity constraints
 - **Class Scheduling:** Mixed-integer programming for time and budget optimization
 - Solutions implemented using SimplexLP solver in Google Sheets
+
+### Project 5 - Bracketology & Colley Rankings
+**Directory:** `5_Bracketology/`
+
+Linear-algebra-based team ranking and tournament forecasting:
+- **Colley Rating Method:** Builds and solves a linear system from game outcomes to rank teams
+- **Weighting Experiments:** Compares uniform weighting against custom time/location game weights
+- **Predictability Testing:** Measures how often rating order matches observed game winners
+- **Bracket Simulation:** Uses ratings to generate round-by-round NCAA tournament picks
 
 ## Getting Started
 
