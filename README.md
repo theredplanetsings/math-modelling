@@ -35,11 +35,15 @@ math-modelling/
 │   ├── NCAA_2008_Games.txt         # 2007-08 game results
 │   ├── NCAA_2008_Teams.txt         # 2007-08 team names
 │   └── README.md                   # Project docs
+├── 6_Markov_Chains/
+│   ├── cherryO.ipynb               # Markov chain game-state analysis
+│   ├── cleanersSimulation.ipynb    # Monte Carlo simulation with Markov transitions
+│   └── README.md                   # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
 
-## Contents as of 03/18/2026:
+## Contents as of 04/07/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
@@ -77,6 +81,14 @@ Linear-algebra-based team ranking and tournament forecasting:
 - **Weighting Experiments:** Compares uniform weighting against custom time/location game weights
 - **Predictability Testing:** Measures how often rating order matches observed game winners
 - **Bracket Simulation:** Uses ratings to generate round-by-round NCAA tournament picks
+
+### Project 6 - Markov Chains
+**Directory:** `6_Markov_Chains/`
+
+State-based stochastic modeling with transition probabilities:
+- **Cleaners Simulation:** Monte Carlo simulation of customer switching between two competing cleaners over time
+- **Hi Ho Cherry-O Analysis:** Transition-matrix Markov chain model for game progression and state reachability
+- **Matrix & Simulation Perspective:** Connects matrix-power analysis with empirical simulation behavior
 
 ## Getting Started
 
