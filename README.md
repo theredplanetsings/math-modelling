@@ -39,11 +39,16 @@ math-modelling/
 │   ├── cherryO.ipynb               # Markov chain game-state analysis
 │   ├── cleanersSimulation.ipynb    # Monte Carlo simulation with Markov transitions
 │   └── README.md                   # Project docs
+├── 7_Integer_Programming/
+│   ├── tableChairIP.ipynb          # Integer production-planning example
+│   ├── castleIP.ipynb              # Castle guard-placement IP puzzle
+│   ├── sudokuNotebook.ipynb        # Sudoku as a binary integer program
+│   └── README.md                   # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
 
-## Contents as of 04/07/2026:
+## Contents as of 04/10/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
@@ -89,6 +94,15 @@ State-based stochastic modeling with transition probabilities:
 - **Cleaners Simulation:** Monte Carlo simulation of customer switching between two competing cleaners over time
 - **Hi Ho Cherry-O Analysis:** Transition-matrix Markov chain model for game progression and state reachability
 - **Matrix & Simulation Perspective:** Connects matrix-power analysis with empirical simulation behavior
+
+### Project 7 - Integer Programming
+**Directory:** `7_Integer_Programming/`
+
+Discrete optimization models solved with integer and binary decision variables:
+- **Table and Chair Model:** Integer production-planning formulation under resource constraints
+- **Castle Puzzle Model:** Integer guard-allocation optimization with wall-coverage constraints
+- **Sudoku BILP:** Binary assignment model enforcing row, column, subgrid, and clue constraints
+- **Solver Transparency:** LP exports (`castle.lp`, `sudoku.lp`) for algebraic model inspection
 
 ## Getting Started
 
