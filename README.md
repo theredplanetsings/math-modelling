@@ -44,11 +44,16 @@ math-modelling/
 │   ├── castleIP.ipynb              # Castle guard-placement IP puzzle
 │   ├── sudokuNotebook.ipynb        # Sudoku as a binary integer program
 │   └── README.md                   # Project docs
+├── 8_Clustering/
+│   ├── tutorial.ipynb              # Introductory clustering walkthrough
+│   ├── classExample.ipynb          # Small-scale clustering examples
+│   ├── clusterMovies.ipynb         # Movie clustering with ratings data
+│   └── README.md                   # Project docs
 ├── README.md             # self-explanatory
 └── LICENSE
 ```
 
-## Contents as of 04/10/2026:
+## Contents as of 04/27/2026:
 
 ### Project 1 - Central Limit Theorem Simulation
 **Directory:** `1_Central-Limit-Theorem/`
@@ -103,6 +108,15 @@ Discrete optimization models solved with integer and binary decision variables:
 - **Castle Puzzle Model:** Integer guard-allocation optimization with wall-coverage constraints
 - **Sudoku BILP:** Binary assignment model enforcing row, column, subgrid, and clue constraints
 - **Solver Transparency:** LP exports (`castle.lp`, `sudoku.lp`) for algebraic model inspection
+
+### Project 8 - Clustering
+**Directory:** `8_Clustering/`
+
+Unsupervised learning methods for distance-based grouping and exploratory structure discovery:
+- **Hierarchical Clustering:** Single-link agglomerative clustering and dendrogram interpretation
+- **k-means Clustering:** Iterative centroid assignment and update dynamics
+- **Movie Segmentation:** Cluster analysis using `movies.csv` and `ratings.csv`
+- **Customer Grouping:** Feature-based clustering with `Wholesale customers data.csv`
 
 ## Getting Started
 
